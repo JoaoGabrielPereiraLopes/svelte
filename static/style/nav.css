@@ -1,0 +1,47 @@
+@keyframes i_hover {
+    0% {
+        font-size: 1em;
+        color: black; /* Cor inicial */
+        text-shadow: none;
+        border-radius: 0%;
+        border-color: white;
+    }
+    100% {
+        font-size: 1.1em;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); /* Blur no texto */
+        border-radius: 50%;
+        border: 1px solid black
+    }
+}
+
+nav,a{
+    color:green;
+}
+i{
+    color: black;
+    padding: 10px;
+    border-radius: 100%;
+    transition: all 250ms ease-in;
+}
+i:hover{
+    font-size: 1.1em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); /* Blur no texto */
+    animation: i_hover 250ms ease-in;
+    border: 1px solid rgba(0, 0, 0, 0.85)
+}
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: lightgray;
+}

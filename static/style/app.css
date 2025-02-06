@@ -1,0 +1,13 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.bg-binary{
+    background-color: rgb(49, 100, 57);
+    color: white;
+}
+.text-binary{
+    color:rgb(49, 100, 57);
+}
+main{
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+}
