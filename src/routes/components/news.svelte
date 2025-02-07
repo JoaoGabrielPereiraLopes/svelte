@@ -3,7 +3,7 @@
 </script>
 <news class="col-sm-12">
     <div class="col-sm-12">
-        <h1 class="text-center h1 p-4 title bg-binary col-sm-12 d-flex justify-content-center ">
+        <h1 class="text-center h1 p-4 title bg-binary col-sm-12 d-flex justify-content-center">
             NEWS
         </h1>
         <div class="carousel-wrapper">

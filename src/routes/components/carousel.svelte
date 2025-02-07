@@ -11,12 +11,12 @@
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="{i}" class={i === 0 ? 'active' : ''}></button>
             {/each}
         </div>
-    
+        
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
             {#each itens as item, i}
                 <div class="carousel-item {i === 0 ? 'active' : ''}">
-                    <h1 class="text-dark">{item.title}</h1>
+                    <h1 class="text-white">{item.title}</h1>
                     <img src={item.content} class="w-100">
                 </div>
             {/each}
